@@ -8,13 +8,13 @@
 const total = 100;
 const ordered = 50;
 
-//version 1
+//version 1:
 ordered < total ? console.log("Заказ оформлен, с вами свяжется менеджер") : console.log("На складе недостаточно твоаров!");
 
-//version 2
-if (ordered < total) {
-    console.log("Заказ оформлен, с вами свяжется менеджер");
-} else {
-    console.log("На складе недостаточно твоаров!");
-}
+//version 2:
+// if (ordered < total) {
+//     console.log("Заказ оформлен, с вами свяжется менеджер");
+// } else {
+//     console.log("На складе недостаточно твоаров!");
+// }
 

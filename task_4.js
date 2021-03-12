@@ -16,6 +16,8 @@ let pricePerDroid = 3000;
 let countOfDroid = prompt("How many droids you want to buy","");
 let totalPrice = 0;
 
+
+//version 1:
 if (countOfDroid === null) {
     console.log("Отменено пользователем!");
 } else {
@@ -27,3 +29,5 @@ if (countOfDroid === null) {
         console.log(`Вы купили ${countOfDroid} дроидов, на счету осталось ${credits} кредитов.`)
     }
 }
+
+
